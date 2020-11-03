@@ -1,9 +1,18 @@
-h3 {
-	font-family: $headers-font;
-	font-size: 1.7em;
-	font-weight: 700;
-	color: $dark-blue;
+.banner {
+	background-size: cover;
+	object-fit: cover;
+	height: 17rem;
+	width: 100% !important;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
-.title {
-
+.banner > h3 {
+	font-family: $headers-font;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }

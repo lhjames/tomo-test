@@ -1,24 +1,32 @@
-.dash-background__white {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  padding: 10px;
-  line-height: 1.3em;
-  font-size: .8em;
-  width: 80%;
-  border-radius: $border-radius;
+.card {
+    align-items: center;
+    padding: 10px;
+    line-height: 1.3em;
+    font-size: .8em;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #6AE0E6;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.15);
 }
-.dash-card__flex {
+.card-content {
+  padding: 15px 25px;
+  background-color: white; 
+  border-radius: 6px;
+  overflow: hidden;
+}
+.card-pic {
+  position: absolute; 
+  top: -20px;
+}
+.reco {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  border-top: 1px solid $dark-grey;
 }
-.card-pic__br {
-  border-radius: $border-radius;
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: cover;
+.reco > h5 {
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: $dark-grey;
 }
