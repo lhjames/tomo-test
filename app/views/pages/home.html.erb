@@ -1,6 +1,5 @@
 <div style="background-color: white;width: 100%;border-bottom: 1px solid grey height: auto;padding-top: 10px;padding-bottom: 10px;margin-bottom: 10px;"> <h2>Test design tomo - ceci est la place de la navbar (ne pas toucher)</h2> </div>
 
-
 <div class="banner" style="background-image: linear-gradient(rgba(5,25,55,0.6),rgba(32,105,166,0.8)), url(<%= asset_path 'mask.jpg'%>)">
 	<h3 class='text-center mb-4'>Mes praticiens</h3>
 	<div class="d-flex justify-content-center space-around">
@@ -12,33 +11,36 @@
 <div class="row mr-5 ml-5">
 	
 	<div class="col-sm-12col-md-4 col-lg-4 mt-3 mb-3">
+
 		<div class="card">
 			<div class="card-pic">
 				<%= image_tag("User2.png") %>
 			</div>
+
 				<div class="doctor-info text-center mt-5">
-					<p class="mt-5">DR Julia Roux</p>
-					<p>Gastro-entérologue et hépatologue</p>
+					<h4>DR Julia Roux</h4>
+					<p class='doctor-title'>Gastro-entérologue et hépatologue</p>
 					<p>40 Avenue DE VERDUN 94010 Créteil</p>
-					<div class="tags d-flex flex-row align-items-center space-between">
+					<div class="tags d-flex flex-row align-items-center">
 						<p class="tag-button pr-2 mr-2">Excellent (1)</p>
 						<p class="tag-button pr-2 mr-2">Confiance (1)</p>
 					</div>
 				</div>
+
 				<div class="reco">
-					<h5 class='mt-4 mb-3'>Recommandations</h5>
-						<div class="d-flex align-items-center space-between">
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Amis</p>
-								<p>1</p>
+					<h5 class='mt-4 mb-4 text-center'>Recommandations</h5>
+						<div class="reco-social row">
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">1</p>
+								<p class="social-den mb-1">Amis</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Utilisateurs</p>
-								<p>3</p>
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">3</p>
+								<p class="social-den mb-1">Utilisateurs</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Commentaires</p>
-								<p>3</p>
+							<div class='text-center col align-self center pr-3 pl-3'>
+								<p class="social-scores">3</p>
+								<p class="social-den mb-1">Commentaires</p>
 							</div>
 					</div>
 				</div>
@@ -46,35 +48,36 @@
 		</div>
 
 	<div class="col-sm-12col-md-4 col-lg-4 mt-3 mb-3">
+
 		<div class="card">
 			<div class="card-pic">
 				<%= image_tag("User1.png") %>
 			</div>
 				<div class="doctor-info text-center mt-5">
-					<p class="mt-5">DR Antoine Legéant</p>
-					<p>Médecin généraliste</p>
+					<h4>DR Antoine Legéant</h4>
+					<p class='doctor-title'>Médecin généraliste</p>
 					<p>40 Avenue DE VERDUN 94010 Créteil</p>
 
-					<div class="tags d-flex flex-row align-items-center space-between">
+					<div class="tags d-flex flex-row align-items-center">
 						<p class="tag-button pr-2 mr-2">Excellent (2)</p>
 						<p class="tag-button pr-2 mr-2">Confiance (5)</p>
 					</div>
 				</div>
 
 				<div class="reco">
-					<h5 class='mt-4 mb-3'>Recommandations</h5>
-						<div class="d-flex align-items-center space-between">
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Amis</p>
-								<p>1</p>
+					<h5 class='text-center mt-4 mb-4'>Recommandations</h5>
+						<div class="reco-social row">
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">1</p>
+								<p class="social-den mb-1">Amis</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Utilisateurs</p>
-								<p>2</p>
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">2</p>
+								<p class="social-den mb-1">Utilisateurs</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Commentaires</p>
-								<p>3</p>
+							<div class='text-center col align-self-center pr-3 pl-3'>
+								<p class="social-scores">3</p>
+								<p class="social-den mb-1">Commentaires</p>
 							</div>
 					</div>
 				</div>
@@ -82,35 +85,36 @@
 	</div>
 
 		<div class="col-sm-12col-md-4 col-lg-4 mt-3 mb-3">
+
 		<div class="card">
 			<div class="card-pic">
 				<%= image_tag("User4.png") %>
 			</div>
 				<div class="doctor-info text-center mt-5">
-					<p class="mt-5">DR Steve Jobs</p>
-					<p>Docteur en science cognitives</p>
+					<h4>DR Steve Jobs</h4>
+					<p class='doctor-title'>Docteur en science cognitives</p>
 					<p>76 Avenue de Wagram, 74008 Paris</p>
 
-					<div class="tags d-flex flex-row align-items-center space-between">
+					<div class="tags d-flex flex-row align-items-center">
 						<p class="tag-button pr-2 mr-2">Médecin de famille (3)</p>
 						<p class="tag-button pr-2 mr-2">Confiance (40)</p>
 					</div>
 				</div>
 
 				<div class="reco">
-					<h5 class='mt-4 mb-3'>Recommandations</h5>
-						<div class="d-flex align-items-center space-between">
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Amis</p>
-								<p>2</p>
+					<h5 class='text-center mt-4 mb-4'>Recommandations</h5>
+						<div class="reco-social row">
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">2</p>
+								<p class="social-den mb-1">Amis</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Utilisateurs</p>
-								<p>0</p>
+							<div class='text-center col-6 pr-3 pl-3'>
+								<p class="social-scores">0</p>
+								<p class="social-den mb-1">Utilisateurs</p>
 							</div>
-							<div class='text-center pr-2 pl-3'>
-								<p class="mb-1">Commentaires</p>
-								<p>2</p>
+							<div class='text-center col align-self-center pr-3 pl-3'>
+								<p class="social-scores">2</p>
+								<p class="social-den mb-1">Commentaires</p>
 							</div>
 					</div>
 				</div>
@@ -118,9 +122,8 @@
 		</div>
 	</div>
 
+<div class="map-wrapper">
+	<%= image_tag("Maptomo") %>
 </div>
-
-<%#= image_tag("Maptomo") %>
-
 
 <div style="background-color: white;width: 100%;border-bottom: 1px solid grey height: auto;padding-top: 10px;padding-bottom: 10px;margin-top: 30px;"> <h2>Ceci est un footer (ne pas toucher)</h2> </div>
