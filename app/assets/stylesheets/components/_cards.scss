@@ -28,13 +28,16 @@
   font-weight: bolder;
   margin-bottom: 1.2em;
 }
+.tags {
+  margin: 2em;
+}
+.tag-button {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+}
 .reco {
   margin-right: .6em;
   margin-left: .6em;
   border-top: 1px solid #cccc;
-}
-.tags {
-  margin: 2em;
 }
 .reco > h5 {
   font-size: 1.2em;
